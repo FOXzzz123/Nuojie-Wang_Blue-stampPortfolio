@@ -79,7 +79,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | Arduino NANO board | What the item is used for | $25.7 |  [href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"](https://store-usa.arduino.cc/products/arduino-nano?utm_source=google&utm_medium=cpc&utm_campaign=US-Pmax-Promo&gad_source=4&gad_campaignid=23663154915&gbraid=0AAAAACbEa86yBs80I8jqmPtKbKuc_FLif&gclid=Cj0KCQjwr4jSBhCSARIsAOX1E-LkGzaCi-FccsInUv2kQQV1g50u2Ewsc1b40wqHHC-Z-e-S0tBnXaIaAoY9EALw_wcB) </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Smart Robtic Arm For Arduino | What the item is used for | $46.0 | https://cokoino.com/products/robot-arm-for-arduino </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 
 # Other Resources/Examples
