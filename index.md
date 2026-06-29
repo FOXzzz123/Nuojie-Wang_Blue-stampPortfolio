@@ -78,9 +78,9 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Arduino NANO board | What the item is used for | $25.7 |  https://store-usa.arduino.cc/products/arduino-nano?utm_source=google&utm_medium=cpc&utm_campaign=US-Pmax-Promo&gad_source=4&gad_campaignid=23663154915&gbraid=0AAAAACbEa86yBs80I8jqmPtKbKuc_FLif&gclid=Cj0KCQjwr4jSBhCSARIsAOX1E-LkGzaCi-FccsInUv2kQQV1g50u2Ewsc1b40wqHHC-Z-e-S0tBnXaIaAoY9EALw_wcB) </a> |
-| Smart Robtic Arm For Arduino | What the item is used for | $46.0 | https://cokoino.com/products/robot-arm-for-arduino </a> |
-| Batteries | What the item is used for | $6.49 | https://www.amazon.com/AmazonBasics-Performance-Alkaline-Batteries-Count/dp/B00O869KJE?th=1 </a> |
+| Arduino NANO board | Control the arm | $25.7 |  https://store-usa.arduino.cc/products/arduino-nano?utm_source=google&utm_medium=cpc&utm_campaign=US-Pmax-Promo&gad_source=4&gad_campaignid=23663154915&gbraid=0AAAAACbEa86yBs80I8jqmPtKbKuc_FLif&gclid=Cj0KCQjwr4jSBhCSARIsAOX1E-LkGzaCi-FccsInUv2kQQV1g50u2Ewsc1b40wqHHC-Z-e-S0tBnXaIaAoY9EALw_wcB) </a> |
+| Smart Robtic Arm For Arduino | Mechanical parts of arm | $46.0 | https://cokoino.com/products/robot-arm-for-arduino </a> |
+| Batteries | Power support | $6.49 | https://www.amazon.com/AmazonBasics-Performance-Alkaline-Batteries-Count/dp/B00O869KJE?th=1 </a> |
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
