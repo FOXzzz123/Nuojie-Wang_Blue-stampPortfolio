@@ -28,13 +28,9 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 # Second Milestone
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_Dp6k8TR21Q?si=OyAmCXBaJie-dOUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+Assembling the mechanical parts of arm is not hard, but it still takes me a few times. You can watch video and find that there are four servos. Each servo control different parts of robtic arm. For the controller, you can see there are two joysticks. The right joystick can control the opening and closing of the arm. The left joystick can control the turning of base and the turning of arm. The biggest challenge I faced absolutely is code problems. Because I am not good at coding, so I mainly use the code from the instruction. However, there are some problems by using code from the instruction. In the tutorial code, there was an error in line45.#include "src/CokoinoArm.h" I move the library of the Arduino IDE to the desktop and change the path in the code. Then, I try to verify again. It still repport an error called compilation error exit status 1. I am confused. After that I back to initial code. I open all the files in the library as the notebook. Then, I try to verify and it works. I actually do not know what the problem is. I think it probably is because of not fully loaded. Now, I have assembled the bluetooth module. I will try to test the bluetooth module by using some code in Arduino IDE. However, there is no tutorial code for the future paths. So I need to search them and learn how to code in the future paths. Also, after testing the bluetooth module, the controlling of the turning and moving of the robtic arm are still by four servos.  In the future plan, I will try to control the robtic arm by browser.
 
 # First Milestone
 
