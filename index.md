@@ -67,6 +67,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Arduino NANO board | Control the arm | $22.0 | https://store-usa.arduino.cc/collections/nano-family/products/nano-r4-connector-bundle  |
 | Smart Robtic Arm For Arduino | Mechanical parts of arm | $46.0 | https://cokoino.com/products/robot-arm-for-arduino  |
 | Batteries | Power support | $6.49 | https://www.amazon.com/AmazonBasics-Performance-Alkaline-Batteries-Count/dp/B00O869KJE?th=1  |
+| HC-05 bluetooth module | Connection with browser | $10.39 | https://www.amazon.com/HiLetgo-Wireless-Bluetooth-Transceiver-Arduino/dp/B071YJG8DR  |
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
