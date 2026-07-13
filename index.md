@@ -64,7 +64,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Arduino NANO board | Control the arm | $25.7 |  https://store-usa.arduino.cc/products/arduino-nano?utm_source=google&utm_medium=cpc&utm_campaign=US-Pmax-Promo&gad_source=4&gad_campaignid=23663154915&gbraid=0AAAAACbEa86yBs80I8jqmPtKbKuc_FLif&gclid=Cj0KCQjwr4jSBhCSARIsAOX1E-LkGzaCi-FccsInUv2kQQV1g50u2Ewsc1b40wqHHC-Z-e-S0tBnXaIaAoY9EALw_wcB  |
+| Arduino NANO board | Control the arm | $22.0 | https://store-usa.arduino.cc/collections/nano-family/products/nano-r4-connector-bundle  |
 | Smart Robtic Arm For Arduino | Mechanical parts of arm | $46.0 | https://cokoino.com/products/robot-arm-for-arduino  |
 | Batteries | Power support | $6.49 | https://www.amazon.com/AmazonBasics-Performance-Alkaline-Batteries-Count/dp/B00O869KJE?th=1  |
 
