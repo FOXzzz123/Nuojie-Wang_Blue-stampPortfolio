@@ -7,7 +7,7 @@ Replace this text with a brief description (2-3 sentences) of your project. This
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
-![Headstone Image](<img width="1280" height="1707" alt="Nuojie W" src="https://github.com/user-attachments/assets/2ca23121-3822-4eae-8602-69cbb97e170a" />)
+![Headstone Image](NuojieW.jpg)
   
 # Final Milestone
 
