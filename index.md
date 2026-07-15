@@ -44,15 +44,225 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
+#include <ServoTimer2Plus.h>
+#include <SoftwareSerial.h>
+
+SoftwareSerial BT(2,3);
+
+ServoTimer2Plus baseServo;
+ServoTimer2Plus shoulderServo;
+ServoTimer2Plus elbowServo;
+ServoTimer2Plus gripperServo;
+
+int baseAngle = 90;
+int shoulderAngle = 90;
+int elbowAngle = 90;
+int gripperAngle = 90;
+
+bool baseLeft = false;
+bool baseRight = false;
+bool shoulderUp = false;
+bool shoulderDown = false;
+bool elbowUp = false;
+bool elbowDown = false;
+
+String command = "";
+
+void setup()
+{
+    Serial.begin(9600);
+    BT.begin(9600);
+
+    baseServo.attach(4);
+    shoulderServo.attach(5);
+    elbowServo.attach(6);
+    gripperServo.attach(7);
+
+    baseServo.write(baseAngle);
+    shoulderServo.write(shoulderAngle);
+    elbowServo.write(elbowAngle);
+    gripperServo.write(gripperAngle);
+
+    Serial.println("Robot Ready");
+    BT.println("Robot Ready");
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
+void readBluetooth()
+{
+    while (BT.available())
+    {
+        char c = BT.read();
 
+        if (c == '\n')
+        {
+            command.trim();
+
+            Serial.print("Receive: ");
+            Serial.println(command);
+
+          
+
+            if (command == "HOME")
+            {
+                baseLeft = false;
+                baseRight = false;
+
+                shoulderUp = false;
+                shoulderDown = false;
+
+                elbowUp = false;
+                elbowDown = false;
+
+                baseAngle = 90;
+                shoulderAngle = 90;
+                elbowAngle = 90;
+                gripperAngle = 90;
+
+                baseServo.write(baseAngle);
+                shoulderServo.write(shoulderAngle);
+                elbowServo.write(elbowAngle);
+                gripperServo.write(gripperAngle);
+            }
+
+          
+
+            else if (command == "BL")
+            {
+                baseLeft = true;
+                baseRight = false;
+            }
+
+            else if (command == "BR")
+            {
+                baseRight = true;
+                baseLeft = false;
+            }
+
+            else if (command == "BSTOP")
+            {
+                baseLeft = false;
+                baseRight = false;
+            }
+
+          
+
+            else if (command == "SU")
+            {
+                shoulderUp = true;
+                shoulderDown = false;
+            }
+
+            else if (command == "SD")
+            {
+                shoulderDown = true;
+                shoulderUp = false;
+            }
+
+            else if (command == "SSTOP")
+            {
+                shoulderUp = false;
+                shoulderDown = false;
+            }
+
+          
+
+            else if (command == "EU")
+            {
+                elbowUp = true;
+                elbowDown = false;
+            }
+
+            else if (command == "ED")
+            {
+                elbowDown = true;
+                elbowUp = false;
+            }
+
+            else if (command == "ESTOP")
+            {
+                elbowUp = false;
+                elbowDown = false;
+            }
+
+           
+
+            else if (command == "GO")
+            {
+                gripperAngle = 180;
+                gripperServo.write(gripperAngle);
+            }
+
+            else if (command == "GC")
+            {
+                gripperAngle = 90;
+                gripperServo.write(gripperAngle);
+            }
+
+            command = "";
+        }
+        else
+        {
+            command += c;
+        }
+    }
+}
+
+void updateBase()
+{
+    if (baseLeft && baseAngle > 0)
+    {
+        baseAngle--;
+        baseServo.write(baseAngle);
+    }
+
+    if (baseRight && baseAngle < 180)
+    {
+        baseAngle++;
+        baseServo.write(baseAngle);
+    }
+}
+
+void updateShoulder()
+{
+    if (shoulderUp && shoulderAngle > 0)
+    {
+        shoulderAngle--;
+        shoulderServo.write(shoulderAngle);
+    }
+
+    if (shoulderDown && shoulderAngle < 180)
+    {
+        shoulderAngle++;
+        shoulderServo.write(shoulderAngle);
+    }
+}
+
+void updateElbow()
+{
+    if (elbowUp && elbowAngle > 0)
+    {
+        elbowAngle--;
+        elbowServo.write(elbowAngle);
+    }
+
+    if (elbowDown && elbowAngle < 180)
+    {
+        elbowAngle++;
+        elbowServo.write(elbowAngle);
+    }
+}
+
+void loop()
+{
+    readBluetooth();
+
+    updateBase();
+
+    updateShoulder();
+
+    updateElbow();
+
+    delay(15);
 }
 ```
 
