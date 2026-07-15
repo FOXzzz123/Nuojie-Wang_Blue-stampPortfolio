@@ -34,7 +34,8 @@ My intensive project is Broswer Controlled Robtic arm. Depending on my plan, my 
 My starter project is LED slider. There are three sliders to control each colors which are red, green and blue. First, I learned how to use the soldering iron. Then, I assembled the mechanical parts of the board. However, there were still many holes. To make sure the system of the LED slider is working, I need to use the soldering iron to melt solder in order to connect with the board. Last, I tested it and controled to make different color successfully.
 
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+
+![Schematics Image](Schematics.jpg)
 
 # Code
 ```c++
