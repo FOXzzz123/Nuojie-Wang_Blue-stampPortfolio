@@ -1,5 +1,5 @@
 # BlueStamp Browser Controlled Robotic Arm
-My project is Browser Controlled Robotic Arm. I write the codes for Arduino IDE and browser to control the robotic arm. There are nine buttons in the browser. One is home button, each of other eight buttons can control different parts of the robotic aram.
+My project is Browser Controlled Robotic Arm. I choose this project is because I am interested in making robots and coding. I write the codes for Arduino IDE and browser to control the robotic arm. There are nine buttons in the browser. One is home button, each of other eight buttons can control different parts of the robotic aram.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
