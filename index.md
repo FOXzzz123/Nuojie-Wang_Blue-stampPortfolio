@@ -265,10 +265,10 @@ void loop()
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Arduino NANO board | Control the arm | $22.0 | https://store-usa.arduino.cc/collections/nano-family/products/nano-r4-connector-bundle  |
-| Smart Robtic Arm For Arduino | Mechanical parts of arm | $46.0 | https://cokoino.com/products/robot-arm-for-arduino  |
-| Batteries | Power support | $6.49 | https://www.amazon.com/AmazonBasics-Performance-Alkaline-Batteries-Count/dp/B00O869KJE?th=1  |
-| HC-05 bluetooth module | Connection with browser | $10.39 | https://www.amazon.com/HiLetgo-Wireless-Bluetooth-Transceiver-Arduino/dp/B071YJG8DR  |
+| Arduino NANO board | Control the arm | $22.0 | [](https://store-usa.arduino.cc/collections/nano-family/products/nano-r4-connector-bundle)  |
+| Smart Robtic Arm For Arduino | Mechanical parts of arm | $46.0 | [](https://cokoino.com/products/robot-arm-for-arduino)  |
+| Batteries | Power support | $6.49 | [](https://www.amazon.com/AmazonBasics-Performance-Alkaline-Batteries-Count/dp/B00O869KJE?th=1)  |
+| HC-05 bluetooth module | Connection with browser | $10.39 | [](https://www.amazon.com/HiLetgo-Wireless-Bluetooth-Transceiver-Arduino/dp/B071YJG8DR)  |
 
 # Other Resources/Examples
 
